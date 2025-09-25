@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-image: linear-gradient(45deg, #161616, #dbdce4);
+}
+
+
+h2{
+    color: black;
+    font-size: 30PX;
+}
+button{
+    margin: 0 12px;
+}
+.count {
+  display: inline-block;
+   background-image: linear-gradient(45deg, hsl(29, 100%, 50%), #ffffff , #5eff00);
+  color: white;
+  padding: 50px;
+    border-radius: 20%;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.count:hover {
+  transform: scale(1.1);
+}
