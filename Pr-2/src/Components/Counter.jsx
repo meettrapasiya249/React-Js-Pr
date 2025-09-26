@@ -26,7 +26,7 @@ class Counter extends React.Component {
 
   render() {
     return (
-      <div  style={{ textAlign: 'center', marginTop: '50px' }}>
+      <div  className="card" style={{ textAlign: 'center', marginTop: '50px' }}>
         <h2>Counter: {this.state.count}</h2>
         <button onClick={this.decrement}>-</button>
         <button onClick={this.reset}>Reset</button>
