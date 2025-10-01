@@ -29,6 +29,8 @@ class UserProfile extends React.Component {
         </div> 
       </div>
     );
+
+    
   }
 }
 
