@@ -1,105 +1,105 @@
 
 
-body {
-    background-color:black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:  #00ff41;
-}
+    body {
+        background-color:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:  #00ff41;
+    }
 
-.card {
-    all: unset;  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 20px 40px;
-    background-color: black;
-    border: 3px solid  #2ecc71;  
-    border-radius: 4px;  
-    box-shadow: 0 0 15px  #e74c3c;
-    max-width: 350px;
-    width: 100%;
-    margin: 50px auto;
-}
+    .card {
+        all: unset;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px 40px;
+        background-color: black;
+        border: 3px solid  #2ecc71;  
+        border-radius: 4px;  
+        box-shadow: 0 0 15px  #e74c3c;
+        max-width: 350px;
+        width: 100%;
+        margin: 50px auto;
+    }
 
-h2 {
-    font-family: 'Press Start 2P', cursive; 
-    font-size: 2.5em;
-    font-weight: 400;
-    margin-bottom: 40px;
-    padding: 10px 20px;
-    letter-spacing: 5px;
-    color: #fa6bff;
+    h2 {
+        font-family: 'Press Start 2P', cursive; 
+        font-size: 2.5em;
+        font-weight: 400;
+        margin-bottom: 40px;
+        padding: 10px 20px;
+        letter-spacing: 5px;
+        color: #fa6bff;
+        
+        text-shadow: 0 0 5px  #ff009d;
+        background-color: #000000;
+        border: 2px solid  #f47bff;
+        
+        clip-path: polygon(5% 0, 95% 0, 100% 10%, 100% 90%, 95% 100%, 5% 100%, 0% 90%, 0% 10%);
+    }
+
+    .button-group {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 280px;
+        margin-bottom: 25px;
+    }
+
+    button {
+        font-family: 'VT323', monospace;
+        font-size: 1.5em;
+        font-weight: 700;
+        width: 110px;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.1s linear;
+        color:black; 
+        padding: 0;
+        
+        border-radius: 5px;
+        box-shadow: 0 6px 0 0  #766675; 
+        transform: translateY(-2px);  
+    }
+
+
+    button:first-of-type {
+        background: #e74c3c;  
+        margin: 20px;
+    }
+
+    button:last-of-type {
+        margin: 20px;
+        background: #2ecc71;  
+        
+    }
+
+    button:nth-of-type(2) {
+        font-size: 1.1em;
+        width: 100%;
+        max-width: 280px;
+        height: 45px;
+        background:  rgb(255, 128, 0); 
+        color: black;
+        
+        box-shadow: 0 4px 0 0 #a05000; 
+        transform: translateY(0);
+    }
     
-    text-shadow: 0 0 5px  #ff009d;
-    background-color: #000000;
-    border: 2px solid  #f47bff;
+    button:hover {
+        filter: brightness(1.1);
+    }
     
-    clip-path: polygon(5% 0, 95% 0, 100% 10%, 100% 90%, 95% 100%, 5% 100%, 0% 90%, 0% 10%);
-}
-
-.button-group {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 280px;
-    margin-bottom: 25px;
-}
-
-button {
-    font-family: 'VT323', monospace;
-    font-size: 1.5em;
-    font-weight: 700;
-    width: 110px;
-    height: 50px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.1s linear;
-    color:black; 
-    padding: 0;
+    button:active {
+        box-shadow: 0 2px 0 0  #444444;  
+        transform: translateY(4px); 
+        filter: brightness(0.9);
+    }
     
-    border-radius: 5px;
-    box-shadow: 0 6px 0 0  #766675; 
-    transform: translateY(-2px);  
-}
-
-
-button:first-of-type {
-    background: #e74c3c;  
-    margin: 20px;
-}
-
-button:last-of-type {
-    margin: 20px;
-    background: #2ecc71;  
+    button:nth-of-type(2):active {
+        box-shadow: 0 1px 0 0 #a05000;
+        transform: translateY(3px);
+    }
     
-}
-
-button:nth-of-type(2) {
-    font-size: 1.1em;
-    width: 100%;
-    max-width: 280px;
-    height: 45px;
-    background:  #ff7f00; 
-    color: black;
-     
-    box-shadow: 0 4px 0 0 #a05000; 
-    transform: translateY(0);
-}
- 
-button:hover {
-    filter: brightness(1.1);
-}
- 
-button:active {
-    box-shadow: 0 2px 0 0  #444444;  
-    transform: translateY(4px); 
-    filter: brightness(0.9);
-}
- 
-button:nth-of-type(2):active {
-    box-shadow: 0 1px 0 0 #a05000;
-    transform: translateY(3px);
-}
- 
