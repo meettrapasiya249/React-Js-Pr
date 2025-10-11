@@ -1,13 +1,12 @@
+import React from 'react';
+import Calculetar from '../src/Components/Calculetar'
 
-import './App.css'
-import Calculetar from './Components/Calculetar'
 function App() {
-
   return (
-    <>
-    <Calculetar/>
-    </>
-  )
+    <div className="App">
+      <Calculetar />
+    </div>
+  );
 }
 
-export default App
+export default App;
