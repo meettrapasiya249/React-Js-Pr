@@ -228,7 +228,7 @@ const Blog = () => {
                 width: "13px",
                 height: "13px",
                 opacity: 0.8,
-                backgroundColor: "#000",
+                backgroundColor: "#000000ff",
                 border: "none",
                 boxShadow: "none",
                 outline: "none",
