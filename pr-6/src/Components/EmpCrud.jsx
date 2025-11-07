@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Form, Row, Col, Button, Table } from 'react-bootstrap';
-import './EmpCrud.css'
+
 
 const EmpCrud = () => {
   const [employee, setEmployee] = useState({
